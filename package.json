@@ -5,6 +5,10 @@
   "main": "src/background.js",
   "author": "Mikhail Yurasov <me@yurasov.me>",
   "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myurasov/chromestrap"
+  },
   "devDependencies": {
     "browser-sync": "^2.6.11",
     "del": "^1.1.1",
