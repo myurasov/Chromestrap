@@ -1,0 +1,23 @@
+{
+  "name": "Chromestrap",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/background.js",
+  "author": "Mikhail Yurasov <me@yurasov.me>",
+  "license": "WTFPL",
+  "devDependencies": {
+    "browser-sync": "^2.6.11",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.10.0",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-sass": "^1.3.3",
+    "gulp-shell": "^0.4.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-task-listing": "^1.0.0",
+    "jshint-stylish": "^1.0.2",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.0",
+    "strip-json-comments": "^1.0.2"
+  }
+}

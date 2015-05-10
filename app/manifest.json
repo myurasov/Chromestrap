@@ -1,0 +1,24 @@
+{
+  "name": "Chromestrap",
+  "description": "Chrome App",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  },
+
+  //  "key": "!!! INSERT YOUR KEY HERE !!! SEE: https://developer.chrome.com/apps/app_identity",
+
+  //  "oauth2": {
+  //    "client_id": "!!! INSERT YOUR CLIENT ID HERE !!! SEE: https://developer.chrome.com/apps/app_identity",
+  //    "scopes": ["https://www.googleapis.com/auth/plus.login"]
+  //  },
+
+  "permissions": [
+    "identity",
+    "https://accounts.google.com/*",
+    "https://www.googleapis.com/*"
+  ]
+}

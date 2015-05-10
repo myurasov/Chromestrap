@@ -1,0 +1,19 @@
+/**
+ * Layout
+ */
+
+body {
+  font-size: 100%; // maintain the same look in chrome and app
+}
+
+.screen {
+}
+
+.tab {
+  padding: 5px 15px;
+}
+
+// remove focus frame aroind radio group
+md-radio-group.md-default-theme:focus:not(:empty) {
+  border-color: rgba(0,0,0,0);
+}

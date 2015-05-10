@@ -1,0 +1,10 @@
+<md-content class="screen">
+
+  <md-tabs selected="selectedIndex">
+    <md-tab label="Tab 1" active="tabIndex == 1" ui-sref="screen-example.tab({tabIndex: 1})"></md-tab>
+    <md-tab label="Tab 2" active="tabIndex == 2" ui-sref="screen-example.tab({tabIndex: 2})"></md-tab>
+    <md-tab label="Tab 3" active="tabIndex == 3" ui-sref="screen-example.tab({tabIndex: 3})"></md-tab>
+  </md-tabs>
+
+  <div ui-view="tab" class="tab"></div>
+</md-content>
