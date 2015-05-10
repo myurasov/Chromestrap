@@ -1,6 +1,6 @@
 {
   "name": "Chromestrap",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "src/background.js",
   "author": "Mikhail Yurasov <me@yurasov.me>",
